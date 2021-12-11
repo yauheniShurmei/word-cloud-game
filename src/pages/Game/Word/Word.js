@@ -14,15 +14,15 @@ const Word = (props) => {
     if (randomNumb === 1) {
       styleOfListElement.alignItems = "flex-end";
       styleOfListElement.justifyContent = "center";
-      topPositionOfAnswer = "28px";
+      topPositionOfAnswer = "20px";
     } else if (randomNumb === 2) {
       styleOfListElement.alignItems = "flex-start";
       styleOfListElement.justifyContent = "end";
-      topPositionOfAnswer = "-25px";
+      topPositionOfAnswer = "-33px";
     } else {
       styleOfListElement.alignItems = "center";
       styleOfListElement.justifyContent = "start";
-      topPositionOfAnswer = "4px";
+      topPositionOfAnswer = "-5px";
     }
     setStyleOfListElement(styleOfListElement);
     setPositionOfAnswer({
