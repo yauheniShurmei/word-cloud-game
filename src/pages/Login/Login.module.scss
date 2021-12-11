@@ -1,0 +1,37 @@
+.section {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      font-size: 3em;
+    }
+    input {
+      height: 3em;
+      width: 100%;
+      border: 1px solid #a7a7a7;
+      border-radius: 3px;
+      padding: 0;
+      box-sizing: border-box;
+      padding: 0 10px;
+    }
+    button {
+      height: 3em;
+      width: 30%;
+      margin-top: 1.5em;
+      background-color: white;
+      border: 1px solid #2576ce;
+      border-radius: 5px;
+      font-size: 0.8em;
+      font-weight: 600;
+      color: #2576ce;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2576ce;
+      color: white;
+      transition: 0.3s;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  }
+}
