@@ -14,7 +14,7 @@ const Word = (props) => {
     if (randomNumb === 1) {
       styleOfListElement.alignItems = "flex-end";
       styleOfListElement.justifyContent = "center";
-      topPositionOfAnswer = "20px";
+      topPositionOfAnswer = "-20px";
     } else if (randomNumb === 2) {
       styleOfListElement.alignItems = "flex-start";
       styleOfListElement.justifyContent = "end";
@@ -22,7 +22,7 @@ const Word = (props) => {
     } else {
       styleOfListElement.alignItems = "center";
       styleOfListElement.justifyContent = "start";
-      topPositionOfAnswer = "-5px";
+      topPositionOfAnswer = "-25px";
     }
     setStyleOfListElement(styleOfListElement);
     setPositionOfAnswer({
